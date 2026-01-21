@@ -1,13 +1,42 @@
 <!doctype html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mobil qurilmalar uchun to'g'ri masshtab -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- Asosiy SEO -->
+    <title>Umarov.A - English</title>
+    <meta name="title" content="Umarov.A - English Flashcards" />
+    <meta name="description" content="Ingliz-O'zbek tilini o'rganish uchun mukammal web-ilova. So'z yodlash, o'yinlar va Smart Learning tizimi." />
+    <meta name="keywords" content="english, uzbek, flashcards, learning, vocabulary, umarov, app" />
+    <meta name="theme-color" content="#020617" />
+
+    <!-- Open Graph / Facebook / Telegram / WhatsApp / Discord -->
+    <!-- Bu teglar link ulashilganda chiroyli "kartochka" hosil qiladi -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://umarov-app.vercel.app/" /> <!-- Sayt linki (keyinchalik o'zgartirishingiz mumkin) -->
+    <meta property="og:title" content="Umarov.A - English Flashcards" />
+    <meta property="og:description" content="Ingliz-O'zbek tilini o'rganish uchun mukammal web-ilova. So'z yodlash, o'yinlar va Smart Learning tizimi." />
+    <meta property="og:image" content="/pwa-512x512.png" /> <!-- Ilova logotipi rasm sifatida chiqadi -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://umarov-app.vercel.app/" />
+    <meta property="twitter:title" content="Umarov.A - English Flashcards" />
+    <meta property="twitter:description" content="Ingliz-O'zbek tilini o'rganish uchun mukammal web-ilova. So'z yodlash, o'yinlar va Smart Learning tizimi." />
+    <meta property="twitter:image" content="/pwa-512x512.png" />
+
+    <!-- iOS (Apple) uchun maxsus sozlamalar -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Umarov.A" />
+    <link rel="apple-touch-icon" href="/pwa-192x192.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Vite + React</title>
   </head>
-  <body>
+  <body class="bg-slate-950 text-white select-none overflow-hidden overscroll-none">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
